@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,29 +24,36 @@
 		<h2 style="color: white">Register</h2>
 		<p class="hint-text" >To get the Latest Sports News.It's free and only takes a minute.</p>
         <div class="form-group">
-			<div class="row">
-				<div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
-				<div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
-			</div>        	
+		      <input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+		
+
+        <div class="form-group mt-3">    
+                    <select class="form-control" id="user" name="user">
+                        <option value="" id="user" disabled selected hidden>Select User Type</option> 
+                        <option value="User">User</option>
+                        <option value="Organiser">Organiser</option>
+                    </select>
         </div>
+                            
+
         <div class="form-group">
         	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
         </div>
+          
+
 		<div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
         </div>
+           
+
 		<div class="form-group">
-            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
-        </div>        
-        <div class="form-group">
-			<label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
-		</div>
-		<div class="form-group">
-            <button type="submit" class="btn btn-success btn-lg btn-block">Register As Organiser</button>
-             <button type="submit" class="btn btn-success btn-lg btn-block">Register As User</button>
+            <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
         </div>
+
     </form>
-	<div class="text-center">Already have an account? <a href="#">Sign in</a></div>
+	
 </div>
+
+
 </body>
 </html>
